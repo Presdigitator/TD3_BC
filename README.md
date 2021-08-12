@@ -1,4 +1,4 @@
-# Using TD3+BC For Offline Reinforcement Learning on My Personal Mood and Activity Data
+# "What Will Make Me Happy?": Using TD3+BC on My Personal Mood and Activity Data
 (forked from original TD3_BC implementation made to run on OpenAI gym)
 
 TD3+BC is a simple approach to offline RL where only two changes are made to TD3: (1) a weighted behavior cloning loss is added to the policy update and (2) the states are normalized. Unlike competing methods there are no changes to architecture or underlying hyperparameters. The paper can be found [here](https://arxiv.org/abs/2106.06860).
